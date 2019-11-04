@@ -26,7 +26,7 @@ frontend:
 'container' => [
         'definitions' => [
             \r39u1\source\RedirectSourceInterface::class => [
-                'class' => \r39u1\source\CsvRedirectSource::class,
+                'class' => \r39u1\redirect\source\CsvRedirectSource::class,
                 'csvPath' => '@app/redirect/redirect.csv',
             ]
         ],
