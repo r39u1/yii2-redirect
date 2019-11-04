@@ -25,9 +25,9 @@ frontend:
 ```
 'container' => [
         'definitions' => [
-            \app\modules\redirect\source\RedirectSourceInterface::class => [
-                'class' => \app\modules\redirect\source\CsvRedirectSource::class,
-                'csvPath' => '@app/modules/redirect/redirect.csv',
+            \r39u1\source\RedirectSourceInterface::class => [
+                'class' => \r39u1\source\CsvRedirectSource::class,
+                'csvPath' => '@app/redirect/redirect.csv',
             ]
         ],
     ],
@@ -38,7 +38,7 @@ frontend:
 ```
     'modules' => [
         'redirect' => [
-            'class' => \app\modules\redirect\Module::class,
+            'class' => \r39u1\redirect\Module::class,
         ],
     ],
 ```
